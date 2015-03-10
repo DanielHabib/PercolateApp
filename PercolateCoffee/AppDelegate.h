@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#define NAV_BAR_HEIGHT 44
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property(strong,nonatomic) NSManagedObjectContext *ManagedObjectContext;
 
 @end
 

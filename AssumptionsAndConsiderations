@@ -1,0 +1,9 @@
+Assumptions
+1. The date label saying "Updated 1 week ago" was hard coded because there wasn't any indication of date-time in the JSON response
+2. I set the SHARE button up to recognize the gesture of a tap so additions can always be added later
+3.In the wireframe i assume that the first uitableviewcell accessoryIndicator is placed in a relative higher position by mistake.
+4.When attempting to use the api_key through the http header, I was able to get it to work on my REST client in my browser, but I was having issues wwhen trying to replicate it through the app.
+5.I was only able to obtain a valid response through HTTP calls not HTTPS.
+6.When attempting to remove the startup xib from the project so i could do it all through autolayout programatically, two large black bars appeared on the top and bottom of the screen. I researched the issue and I couldn't find a solution at the time so I moved on and left the xib in place.
+Time Spent
+1.Spent about 2 days working on the application, I worked on it heavily last Thursday 4th, Sunday the 9th. 
